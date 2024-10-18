@@ -4,6 +4,8 @@
  */
 package labprojects1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author 50494
@@ -15,10 +17,25 @@ public class Flores_Camila_Empleados {
      */
     public static void main(String[] args) {
         
-       String NombreEmpleado;
-       int HorasLaborales;
-       double SalariopHora;
-       
+       Scanner entrada = new Scanner(System.in);
+        
+        
+        System.out.println("----- Boleta del Empleado ------- ");
+        
+        System.out.println("Favor ingresar su nombre completo: ");
+        nombre = entrada.nextLine();
+        
+        System.out.println("Favor ingresar su numero de horas trabajadas al mes: ");
+        HorasTrabajadas = entrada.nextInt();
+        
+        System.out.println("Favor ingresar su tarifa por hora (en Lempiras): ");
+        TarifaHora = entrada.nextDouble();
+        
+        Salario = (TarifaHora*HorasTrabajadas/4);
+        
+      
+        System.out.println("El salario semanal de " +nombre + " es de:" +Salario + "Lempiras semanales");       
+    }
              
        
         
