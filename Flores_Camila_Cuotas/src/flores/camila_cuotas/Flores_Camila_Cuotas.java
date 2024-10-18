@@ -22,6 +22,15 @@ public class Flores_Camila_Cuotas {
         double prestamo;
         
         
+        InteresMensual = 0.05;
+        ComisionCuota = 0.03;
+        Seguro = 0.25;
+        
+        
+        
+      
+       
+        
         
         
         
