@@ -29,10 +29,10 @@ public class Flores_Camila_Empleados {
         System.out.println("Favor ingresar su nombre completo: ");
         nombre = entrada.nextLine();
         
-        System.out.println("Favor ingresar su numero de horas trabajadas al mes: ");
+        System.out.println("Favor ingresar su numero de horas trabajadas al mes: " );
         HorasTrabajadas = entrada.nextInt();
         
-        System.out.println("Favor ingresar su tarifa por hora (en Lempiras): ");
+        System.out.println("Favor ingresar su tarifa por hora: " );
         TarifaHora = entrada.nextDouble();
         
         Salario = (TarifaHora*HorasTrabajadas/4);
@@ -45,4 +45,4 @@ public class Flores_Camila_Empleados {
         
     }
     
-}
+
