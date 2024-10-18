@@ -18,6 +18,10 @@ public class Flores_Camila_Empleados {
     public static void main(String[] args) {
         
        Scanner entrada = new Scanner(System.in);
+        String nombre;
+        int HorasTrabajadas;
+        double TarifaHora;
+        double Salario;
         
         
         System.out.println("----- Boleta del Empleado ------- ");
