@@ -17,7 +17,7 @@ public class Flores_Camila_Empleados {
      */
     public static void main(String[] args) {
         
-       Scanner entrada = new Scanner(System.in);
+       Scanner entrada = new Scanner(System.in).useDelimiter("\n");
         String nombre;
         int HorasTrabajadas;
         double TarifaHora;
@@ -27,7 +27,7 @@ public class Flores_Camila_Empleados {
         System.out.println("----- Boleta del Empleado ------- ");
         
         System.out.println("Favor ingresar su nombre completo: ");
-        nombre = entrada.nextLine();
+        nombre = entrada.next();
         
         System.out.println("Favor ingresar su numero de horas trabajadas al mes: " );
         HorasTrabajadas = entrada.nextInt();
